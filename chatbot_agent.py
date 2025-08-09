@@ -12,6 +12,9 @@ from typing_extensions import TypedDict
 load_dotenv()
 
 # Initialize the LLM
+# llm = ChatAnthropic(temperature=0.7, model="claude-3-opus-20240229")
+
+
 llm = ChatAnthropic(temperature=0.7, model="claude-3-opus-20240229")
 
 # Create a prompt template
